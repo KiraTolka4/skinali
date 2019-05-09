@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,KAAK,CAAC;EACJ,UAAU,EAAE,OAAO,CAAA,yBAA2B,CAAC,SAAS,CAAC,MAAM;EAC/D,eAAe,EAAE,KAAK;EACtB,WAAW,EAAE,KAAK;EAClB,cAAc,EAAE,KAAK;CAAG",
+    "sources": [
+        "../sass/blocks/hero.sass"
+    ],
+    "names": [],
+    "file": "hero.css"
+}

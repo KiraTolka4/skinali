@@ -1,0 +1,78 @@
+body
+    +light
+    color: $text-color
+img
+    max-width: 100%
+.section
+    padding: 100px 0
+    &-title
+        font-size: 30px
+        text-transform: uppercase
+        text-align: center
+        +bold
+    &__title
+        margin-bottom: 100px
+.button-o
+    text-decoration: none
+    background: #fff
+    border: 2px solid $primary
+    text-transform: uppercase
+    font-size: 12px
+    color: $primary
+    padding: 17px 22px
+    +bold
+.button
+    text-decoration: none
+    border: none
+    padding: 25px 45px
+    text-transform: uppercase
+    background: $primary
+    color: #fff
+    font-size: 15px
+    +bold
+    &:hover
+        cursor: pointer
+    &-fitting
+        background-color: #ffffff
+        color: $primary
+        +bold
+    &-add
+        background-color: $primary-light
+        color: #ffffff
+        +bold
+    &-like
+        padding: 8px
+        background-color: $primary
+        height: 30px
+        border: none       
+.bg-secondary
+    background-color: $bg-secondary
+input[type="checkbox"]
+    display: none
+    &:checked + label:before
+        background-color: $primary
+.checkbox
+    &__label
+        display: flex
+        align-items: center
+        margin-right: 40px
+        &:hover
+            cursor: pointer
+        &:before
+            content: ''
+            width: 30px
+            height: 30px
+            border: 1px solid $border-form
+            margin-right: 20px
+@media (max-width: 324px)
+    .button
+        font-size: 10px
+        &-o
+            font-size: 10px
+            padding: 10px 11px
+            margin-left: 20px
+@media (max-width: 426px)
+    .section
+        padding: 60px 0
+        &-title
+            font-size: 24px
